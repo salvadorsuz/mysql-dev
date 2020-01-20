@@ -10,8 +10,15 @@ Mysql server and phpMyadmin for development purpose
 - [init scripts](#init-scripts)
 - [docker toolbox](#docker-toolbox)
 
+---
+
 ## Docker
-Run: docker-compose up -d
+
+| Action                 | Execute                          |
+|------------------------|----------------------------------|
+| Start                  | docker-compose up -d             |
+| Down                   | docker-compose down              |
+
 
 ## phpMyAdmin
 Log in phpMyAdmin at localhost:8080
@@ -20,7 +27,10 @@ Log in phpMyAdmin at localhost:8080
 /init/ Folder for dumping databases and tables in alphabetical order
 
 ## docker toolbox
+[Docker toolbox web page](https://docs.docker.com/toolbox/toolbox_install_windows/)
 
-Edit shared folder for default machine in virtual toolbox:
+Edit shared folder for **default machine** in _virtual toolbox_:
 
-c/docker/mysql    c:\Users\Mysuser\Documents\mysql  automount and permanent
+> c/docker/mysql    c:\Users\Mysuser\Documents\mysql  automount and permanent
+
+
