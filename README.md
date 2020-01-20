@@ -1,7 +1,8 @@
 # mysql-dev
+![image](./images/docker.jpg)
 <img src="https://d1q6f0aelx0por.cloudfront.net/product-logos/library-mysql-logo.png" >
 
-Mysql server and mhpMyadmin for development purpose
+Mysql server and phpMyadmin for development purpose
 
 ## Sections
 - [Docker](#Docker)
@@ -23,5 +24,3 @@ Log in phpMyAdmin at localhost:8080
 Edit shared folder for default machine in virtual toolbox:
 
 c/docker/mysql    c:\Users\Mysuser\Documents\mysql  automount and permanent
-
-
